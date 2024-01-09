@@ -1,6 +1,5 @@
 package easy
 
-
 func twoSum(nums []int, target int) []int {
 	l := len(nums)
 	for i := 0; i < l; i++ {
@@ -12,4 +11,3 @@ func twoSum(nums []int, target int) []int {
 	}
 	return []int{}
 }
-
