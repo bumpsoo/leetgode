@@ -1,6 +1,6 @@
 package easy
 
-//https://leetcode.com/problems/unique-number-of-occurrences
+// https://leetcode.com/problems/unique-number-of-occurrences
 func uniqueOccurrences(arr []int) bool {
 	m := map[int]int{}
 	for _, v := range arr {
