@@ -1,4 +1,4 @@
-package medium_test
+package medium
 
 // https://leetcode.com/problems/house-robber
 func rob(nums []int) int {
