@@ -24,4 +24,3 @@ func rob(nums []int) int {
 	}
 	return f(len(nums) - 1)
 }
-
