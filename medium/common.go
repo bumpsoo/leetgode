@@ -24,3 +24,19 @@ type (
 		Next *ListNode
 	}
 )
+
+type q[T any] []T
+
+func NewQ[T any]() *q[T] {
+	return &q[T]{}
+}
+
+func (q *q[T]) Push(x T) {
+	*q = append(*q, x)
+}
+
+func (q *q[T]) Pop() T {
+	x := (*q)[0]
+	(*q) = (*q)[1:]
+	return x
+}
